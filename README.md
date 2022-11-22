@@ -1,5 +1,3 @@
-# java-session
-
 Core Java:
 ---------
 oops concepts
@@ -184,6 +182,217 @@ System.ot.println("Hello World");
 
 
 }
+
+
+packages:
+
+syntax for package
+
+com.companyname.projectname.xxxx
+
+com.meta.facebok.posts;
+com.meta.facebok.xyz;
+
+
+facebook
+  -posts
+   -
+   -
+  -messenger
+  
+
+Data types:
+
+numeric dattypes
+int/float/double/short/long
+alphanumeric datatypes
+String/char
+boolena type
+true/false
+
+user definded datatypes
+
+ex:
+
+int/float/double/short/long
+
+String
+
+char
+
+boolean
+
+details of a student
+
+Name
+Sid
+Dept
+Address
+Sring x = "d werewr ewrew r3	2 r32	 r32 ee1 "
+
+
+UserDefinded Object
+
+Student{
+
+Name--Sting
+Sid-int
+Dept-string
+Address-string
+
+
+
+}
+
+
+
+Student.name
+
+Arrays:
+
+marks:
+100
+25
+67
+
+int
+
+int [3]={100,25,67}
+
+Student [2]=={}
+
+Data formats
+
+xml
+text
+json
+html
+
+
+student :
+name
+sid
+add
+dep
+
+{
+
+"name":"cAfqwwd	q",
+"sid":"fef	"
+
+
+
+}
+
+
+[
+{
+
+"name":"cAfqwwd	q",
+"sid":"fef	"
+
+
+
+},
+{
+
+"name":"cAfqfwfwwwd	q",
+"sid":"fefefefw	"
+
+
+
+}
+
+
+
+
+]
+
+
+
+variable declaration
+variable initilization
+
+
+age =19
+
+datatype variablename;
+int        age;
+
+int        age=19;
+
+voting app
+
+age>=18 then eligible for voting
+
+int eligibleAge=18;
+int person1Age;
+int person1Age = 19
+
+person1Age>=18
+19>=18
+
+
+
+1
+2
+3
+4
+5
+6
+7
+89
+
+int
+float
+double
+short/
+long
+boolean
+String
+char
+
+
+
+types of variables
+
+
+variables===members===properties
+
+inside the class
+
+{
+
+
+
+}
+
+
+
+4 differnt type of variables
+1.local variables
+2.public variables/global variables
+3.static variables
+4.concrete/non static variables.
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
 
 
 

@@ -376,6 +376,31 @@ inside the class
 4.concrete/non static variables.
 
 
+public class VariablesDemo{
+
+int age = 10;
+float weight = 65.7;
+boolean gender=true;
+String address = "Aknivjdlf";
+
+
+main(Sinr vdfvd){
+
+Sysout("cikciksjcj");
+Sysout(age);
+Sysout(weight);
+
+Sysout("The value for age is:"+age);
+
+
+
+}
+
+
+}
+
+
+
 
 
 

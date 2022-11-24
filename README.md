@@ -399,7 +399,138 @@ Sysout("The value for age is:"+age);
 
 }
 
+4 differnt type of variables
+1.local variables
+2.public variables/global variables
+3.static variables
+4.concrete/non static variables.
 
+
+datatype variablename;
+
+datatype variablename=value;
+
+in case if variables are declared/initialized without static keyword are treated a non static /instance/concrete variables.
+
+in case if variables are declared/initialized with static keyword are treated as static  variables.
+
+public class VariablesDemo{
+
+int age = 100;//ns
+
+float weight = 65.6;//ns
+
+
+main(){
+
+
+String name ="Anthony";//ns
+
+
+
+}
+
+
+String address ="Hyderabad";//ns
+
+
+}
+
+
+
+
+public class VariablesDemo{
+
+static int age = 100;//s
+
+static float weight = 65.6;//s
+
+
+main(){
+
+
+String name ="Anthony";//ns
+
+
+
+}
+
+
+String address ="Hyderabad";//ns
+
+
+}
+
+
+
+methods:
+--------
+static methods
+non static methods
+final methods
+abstract method
+
+m-mandatory
+nm-not mandatory(optional)
+
+nm      nm     m    m    nm    
+public static void main(args){
+
+nm
+}
+
+
+void wish(){
+
+}
+
+int  addition(int a,int b){
+
+return a+b;
+
+}
+
+
+int  sub(int a,int b){
+
+return a-b;
+
+}
+
+
+int  seytdruyiguhijokplpub(int a,int b){
+
+ine c = a+b;
+
+return 'A';
+
+}
+
+float  seytdruyiguhijokplpub(int a,int b){
+
+return 0.9;
+
+}
+
+char  seytdruyiguhijokplpub(int a,int b){
+
+return 'a';
+
+}
+
+String  seytdruyiguhijokplpub(int a,int b){
+
+return "Anthony";
+
+}
+
+
+
+boolean  seytdruyiguhijokplpub(int a,int b){
+
+return true;
+
+}
 
 
 

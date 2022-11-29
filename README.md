@@ -532,41 +532,161 @@ return true;
 
 }
 
-public class MethodsExamples{
 
 
-int a,b;
+access specifiers:
+
+
+inheritance:
+-----------
+
+
+father         child
+
+properties     able to get them directly
+
+
+
+extends
+
+
+parent
+;
+;
+extends
+;
+;child
+
+
+
+Student
+
+
+
+SudentDetails extends Students
+
+
+Students extdns SudentDetails
+
+
+RBIBank{
+
+minbal(){
+100;
+}
+
+noOfbracnhes(){
+}
+
+
+
+
+}
+
+
+SBIBank extends RBIBank{
+
+
+
+typesOFAccounts(){
+
+}
+
+typesOfCardsProvided(){
+
+
+
+}
+
+
+
+main(){
+
+1000;
+
+@voeride
+minbal(){
+
+
+}
+
+}
+
+
+
+
+}
+
+
+
+HDFCBank extends RBIBank{
+
+
+
+typesOFAccounts(){
+
+}
+
+typesOfCardsProvided(){
+
+
+
+}
+
+
+
+
+}
+
+
+polymorphism:
+------------
+
+2 conecpts
+
+run time polymorphism(Method overiding)
+compile time polymorphism(method overloading)
+
+
+run time polymorphism(Method overiding):
+-----------------------------------
+
+
+
+compile time polymorphism(method overloading):
+---------------------------------------------
+
 
 
 int addition(int a,int b){
 
-//return a+b;
+retunn a+b;
 
-return a+b;
+
 }
 
-static int sub(int a,int b){
-
-//return a-b;
-
-return a+b;
-}
-
-public static void main(String [] args){
-
-Classname ref = new Classname();
-
-MethodsExamples methodsExamples = new MethodsExamples();
 
 
-Sysout.out.println("The addition of"+a+" and "+b+" is :"+methodsExamples.addition(1,3));
-Sysout.out.println("The sub of"+a+" and "+b+" is :"+sub(1,3));
+
+int addition(int a,int b,int c){
+
+retunn a+b+c;
+
 
 }
 
 
+int addition(int a,int b,int c,float d){
+
+retunn a+b+c+d;
+
 
 }
+
+adition(1,2);
+adition(1,2,4);
+adition(1,2,3,4);
+
 
 
 

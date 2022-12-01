@@ -18,6 +18,8 @@ public class Cat extends Animal {
 		Cat cat = new Cat();
 		System.out.println("Cat makes this sound: " + cat.makeSound());
 		System.out.println("Cat is an : " + cat.typeOfAniml());
+		cat.showMessage();
+//		Animal.
 
 	}
 

@@ -1,6 +1,8 @@
 package com.javasession.methods.examples;
 
-public class MethodsExample {
+import com.javasession.interitance.examples.Animal;
+
+public class MethodsExample extends Animal {
 
 //	int a = 10, b = 20;
 	int a,b;
@@ -33,6 +35,8 @@ public class MethodsExample {
 		System.out.println("The sub of" + methodsExample.a + " and "
 				+ methodsExample.b + " is :"
 				+ sub(methodsExample.a, methodsExample.b));
+		
+		methodsExample.showMessage();
 
 	}
 

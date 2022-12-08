@@ -688,6 +688,220 @@ adition(1,2,4);
 adition(1,2,3,4);
 
 
+Users
+
+saveAddress()
+
+Admin
+saveAdmin()
+
+Employeee
+
+
+Adresss
+
+
+
+Save(User)
+
+
+--------------
+
+Interfaces:
+abstract mthids
+
+CrudReoitory{
+save();
+delete();
+update();
+read()
+
+}
+
+
+Table tries t impelet the bsic 4 methods.
+
+Table implements CrudReoitory{
+save(){
+}
+delete(){}
+update(){}
+read(){
+}
+
+
+}
+
+x
+public void saveStudentDetaikls()
+{
+
+
+ffqff
+}
+
+y
+public void saveStudentDetaikls()
+{
+
+dweefewf
+
+}
+
+
+Main
+public void saveStudentDetaikls(int a,float b);
+
+
+
+X implemts Main
+saveStudentDetaikls()
+
+Y implemts Main
+saveStudentDetaikls()
+
+
+operators:
+-----------
+
+arthimetic
++
+_
+/
+*
+%
+relationl opertors
+<
+>
+<=
+>=
+==
+!=
+
+1,2,3,4
+1>2 && 1>3 && 1>4----F
+
+1>2 ||  1>3 && 1>4----F
+
+then i can say 1 is bigger
+assignment peator
+==
+
+logical operators:
+truth tables
+
+TT T
+
+
+FF F
+
+
+&&
+||
+
+ternry operator
+1>2?print 1 is smaller:2 is bigger
+
+
+Control statements:
+--------------------
+
+if else
+
+if(condition){
+
+}else{
+
+}
+
+
+if(condition)
+fwefef;
+yjggygyuyi
+hguhi
+jhihi
+
+else
+fwefqef;
+
+
+if(condition1){
+
+}else{
+
+}
+
+
+if(condition2){
+
+}else{
+
+}
+
+
+
+if(condition3){
+
+}else{
+
+}
+
+
+
+switch
+
+nested if else
+
+if(Confition1){
+
+}else if(Confition2){
+}else if(Confition2){
+}else if(Confition2){
+}else if(Confition2){
+
+}else if(Confition2){
+}else if(Confition2){
+}-
+-
+-
+else{
+
+}
+
+
+switch(String  wm){
+
+case 'a':jdbjwdajhhi;
+break;
+case 2:jdbjwdajhhi;
+break;
+case 3:jdbjwdajhhi;
+break;
+case "tv":jdbjwdajhhi;
+break;
+
+default :jdbjwdajhhi;
+
+
+
+
+}
+
+iterative statements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

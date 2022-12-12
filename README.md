@@ -887,7 +887,91 @@ default :jdbjwdajhhi;
 
 }
 
-iterative statements
+iterative statements:
+---------------------
+for
+foreach
+
+while
+
+do while
+
+
+for(initilization;  condition; increment / decremnt){
+
+}
+
+
+public clss Demo{
+
+main(){}
+
+
+Sysout(1)
+Sysout(1)
+Sysout(1)
+Sysout(1)
+Sysout(1)
+Sysout(1)
+Sysout(1)
+Sysout(1)
+Sysout(1)
+
+
+}
+
+
+for(int a=1; a<=10; a++ ){
+
+sysout 
+
+}
+
+for(int a=1; a<=100; a++ ){
+
+sysout 1
+2
+
+100
+
+}
+
+
+for(int a=100; a>=1; a--){
+
+sysout 100
+99
+
+100
+
+}
+
+
+int numbers = {1,2,34,5,6,8};
+
+
+for(Integer number :numbers){
+Sysout(number)
+
+}
+
+while( a>=1){
+
+a++;
+
+}
+
+
+do{
+
+}while(a>=1)
+
+
+2*1=2
+
+2+1=2
+
+
 
 
 

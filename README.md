@@ -972,6 +972,73 @@ do{
 2+1=2
 
 
+marks:
+
+int sub1= 100;
+int sub2= 100;
+
+int [5] marks;
+float [5] marks;
+String [10] names;
+
+Students[4] students;
+
+marks = {1,2,3,4,5};
+
+names = {"qwdq","qwdq","qwdq","qwdq","qwdq","qwdq","qwdq","qwdq","qwdq"};
+
+Students{
+
+int age;
+string nam;
+
+
+
+
+}
+
+Students Students1 = new Students();
+Students.name ="flwfw",
+Students.age= 123;
+
+
+students[0]=Students1;
+
+Students Students2 = new Students();
+Students.name ="flwfw",
+Students.age= 123;
+
+students[1]=Students2;
+
+students =={
+{
+Students.name ="flwfw",
+Students.age= 123;
+
+},
+{
+Students.name ="flwfw",
+Students.age= 123;
+},
+{
+Students.name ="flwfw",
+Students.age= 123;
+
+},
+{
+Students.name ="flwfw",
+Students.age= 123;
+}
+
+
+
+}
+
+
+
+
+
+
 
 
 

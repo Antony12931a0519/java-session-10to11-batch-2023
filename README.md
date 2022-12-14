@@ -1034,6 +1034,87 @@ Students.age= 123;
 
 }
 
+Collections:
+
+List
+Set
+Map
+
+1,2,3,4,5
+
+List
+
+ArrayList
+Vector
+LinkedArraylist
+
+
+=============
+Set
+
+Hashset
+LinkedHashSet
+Treeset
+
+===========
+
+Map
+
+Hashmap
+LinkedHashMap
+TreeMap
+
+
+1 2 3 4 5 5
+
+Studnes
+
+
+
+list 
+
+1,2,3,4,5,6,7,7-input
+
+1,2,3,4,5,6,7,7-nput
+
+set 
+
+1,2,3,4,5,6,7,7-input
+
+1,2,3,4,5,6,7-nput
+
+Map
+key-->value
+a--1
+a--2
+c--3
+
+
+
+List-Interface
+
+abstract methods
+add
+remove
+get
+removall
+addall
+
+List<T> numbers = new ArrayList<T>();
+numbers.
+
+Set<T> numbers = new HashSet<T>();
+numbers.
+
+
+
+
+
+
+
+
+
+
 
 
 

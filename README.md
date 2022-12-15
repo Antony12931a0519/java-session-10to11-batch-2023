@@ -1106,6 +1106,93 @@ numbers.
 Set<T> numbers = new HashSet<T>();
 numbers.
 
+List
+
+list of names.
+
+
+List<String> names = new Arraylist<String>();
+names.add("yguhijo");
+names.add("fefwefw");
+names.add("yguhdsdsijo");
+names.add("fedsdsfwefw");
+
+
+List<Integer> numbers = new Arraylist<Integer>();
+numbers.add(1);
+numbers.add(13);
+numbers.add(14);
+numbers.add(15);
+numbers.add(1);
+numbers.add(1);numbers.add(1);
+numbers.add(1);
+
+
+List<Float> numbers = new Arraylist<Float>();
+
+numbers.add(1.0);
+numbers.add(13.0);
+numbers.add(14.0);
+numbers.add(15.0);
+
+List<T> ref = new ArrayList<T>();
+
+List<Employee> employessList = new ArrayList<Employee>();
+
+Employee{
+int empId;--setter method--getter method
+String name;
+Strng address;
+}
+
+
+Employee emp1 = new Employee();
+emp1.setName("fwfwqd");
+emp1.setempId(123);
+emp1.setAddress("wtserdyfyghunjk");
+
+
+
+
+employessList.add(emp1);
+
+Employee emp2 = new Employee();
+emp2.setName("wdwf");
+emp2.setempId(1234);
+emp2.setAddress("efwfqwrfr");
+
+employessList.add(emp2);
+
+
+Employee emp22 = new Employee();
+emp22.setName("wdwf");
+emp22.setempId(1234);
+emp22.setAddress("efwfqwrfr");
+
+employessList.add(emp22);
+
+
+for (intlization; condtion; incrment/decrement)
+
+for(int i=1; i<=employessList.size;i++)
+
+
+
+for(Employee emp:employessList){
+emp.getname
+.geId'
+.getAddress
+
+}
+
+for(Integer number : numbers){
+number
+
+}
+
+
+
+
 
 
 

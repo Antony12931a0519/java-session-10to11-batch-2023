@@ -16,17 +16,13 @@ public class TryCatchExample {
 			System.out.println(exw.getMessage());
 			System.out.println("---------");
 			exw.printStackTrace();
-			
-			log.nfo
-			log.error
-			log.debug
+
 		} catch (Exception ex) {
 			System.out.println("there is some issue with the code" + ex);
 
 			ex.getLocalizedMessage();
 			ex.printStackTrace();
-			
-			log.error(exw);
+
 		}
 
 		System.out.println(1 / 1);

@@ -2,7 +2,7 @@ package com.javasession.exception_handling.examples;
 
 public class TryCatchExample {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		System.out.println(2 / 1);
 
@@ -16,16 +16,21 @@ public class TryCatchExample {
 			System.out.println(exw.getMessage());
 			System.out.println("---------");
 			exw.printStackTrace();
+			throw new Exception();
 
 		} catch (Exception ex) {
 			System.out.println("there is some issue with the code" + ex);
 
 			ex.getLocalizedMessage();
 			ex.printStackTrace();
+			throw new Exception();
 
 		}
 
-		System.out.println(1 / 1);
+		finally {
+			System.out.println("Thank you");
+		}
+
 	}
 
 }

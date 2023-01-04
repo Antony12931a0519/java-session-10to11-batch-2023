@@ -1190,6 +1190,126 @@ number
 
 }
 
+Exception Handling:
+-------------------
+try
+
+catch
+
+throw
+
+throws
+
+finally
+
+
+
+public class ExceptionExample {
+
+	public static void main(String[] args) {
+
+		System.out.println(2 / 1);
+		
+		try{
+		System.out.println(1 / 0);
+		}catch(ArithmeticException ex){
+		System.out.println("there is some issue with the code"+ex);
+		}catch(ArithmeticException ex){
+		System.out.println("there is some issue with the code"+ex);
+		}
+		catch(ArithmeticException ex){
+		System.out.println("there is some issue with the code"+ex);
+		}
+		catch(ArithmeticException ex){
+		System.out.println("there is some issue with the code"+ex);
+		}
+		
+		System.out.println(1 / 1);
+	}
+	
+	run time exceptions 
+	compile time exceptions
+	
+	
+	-------------
+	un checked exceptions
+	checked exceptions
+	
+
+}
+
+
+try
+
+catch
+
+throw
+
+throws
+
+------
+
+finally
+
+
+class{
+
+
+main(){
+
+try{
+
+sysout(1/0)//possiblity of getting excepton
+
+}catch(Exception ex){
+ex.printstacktracke();
+}
+
+
+
+sysout("Thanks you");
+
+
+}
+}
+
+
+-----------
+
+class{
+
+
+main(){
+
+
+
+sysout(1/0)//possiblity of getting excepton
+
+
+
+finally{
+sysout("Thanks you");
+}
+
+
+
+
+}
+}
+
+
+
+
+----------------
+
+catch
+
+
+
+
+
+
+
 
 
 

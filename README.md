@@ -1305,6 +1305,134 @@ sysout("Thanks you");
 catch
 
 
+Advanced topics.
+
+
+toools
+maven
+
+goals
+
+
+clean
+
+install
+
+
+Demo.java(making some chnages)
+Demo1.Java
+
+
+maven install
+
+Demo.class
+Demo1.class
+
+
+maven clean 
+maven install
+
+Demo.class
+Demo1.class
+
+dependencies(libraries/jars/third party classses.)
+
+pom.xml
+
+maven bulild
+
+goals: clean install
+
+
+
+
+
+
+
+
+Applicaton servers
+
+
+tomcat server
+
+
+
+
+frameworks
+spring boot
+rest api/restfull web services
+
+
+database
+any db--mysql
+hibernate/jpa
+
+
+MODEL(DB Operation) VIEW(User Interface) CONTROLLER(driving the functionality)
+
+
+Project
+-src/main/java--java code
+-src/test/java--contins the test cases for the java code.
+-src/test/resources
+-src/main/resources-resurces
+-maven-dependencies
+-pom.xml
+
+
+
+username
+paswd
+connection url
+dabase name
+
+username
+paswd
+connection url
+dabase name
+
+username
+paswd
+connection url
+dabase name
+
+username
+paswd
+connection url
+dabase name
+
+
+
+addition(nt a,int b){
+
+}
+
+
+Junits
+
+
+
+EMS:
+
+
+
+EMS
+
+Emploess
+
+Departments
+
+ABS
+
+XYZ
+
+
+
+
+
+
+
+
 
 
 

@@ -5,35 +5,35 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.javasession.ems.model.Employee;
+import com.javasession.ems.model.EmployeeModel;
 
 @Component
 public class EmployeeUtility {
 
-	public List<Employee> getEmployees() {
+	public List<EmployeeModel> getEmployees() {
 
-		List<Employee> employees = new ArrayList<>();
-		Employee employee = new Employee();
-		employee.setName("Anthony");
-		employee.setDepartment("Java Full Stack");
-		employee.setSalary(10000);
-		employees.add(employee);
+		List<EmployeeModel> employeeModels = new ArrayList<>();
+		EmployeeModel employeeModel = new EmployeeModel();
+		employeeModel.setName("Anthony");
+		employeeModel.setDepartment("Java Full Stack");
+		employeeModel.setSalary(10000);
+		employeeModels.add(employeeModel);
 
-		Employee employee1 = new Employee();
+		EmployeeModel employee1 = new EmployeeModel();
 		employee1.setName("Rahul");
 		employee1.setDepartment("Dotnet");
 		employee1.setSalary(10000);
-		employees.add(employee1);
+		employeeModels.add(employee1);
 
-		return employees;
+		return employeeModels;
 	}
 
-	public List<Employee> addEmployee(Employee employee) {
+	public List<EmployeeModel> addEmployee(EmployeeModel employeeModel) {
 
-		List<Employee> employees = getEmployees();
+		List<EmployeeModel> employeeModels = getEmployees();
 
-		employees.add(employee);
-		return employees;
+		employeeModels.add(employeeModel);
+		return employeeModels;
 
 	}
 

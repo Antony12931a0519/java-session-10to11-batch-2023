@@ -22,3 +22,71 @@ https://api.postman.com/collections/783787-0757f063-932e-4317-8bb6-78c73509d614?
 catalog xml:
 https://repo.maven.apache.org/maven2/archetype-catalog.xml
 
+
+.jar
+
+.war
+
+.ear
+
+different packages in a applcation/project.
+
+default package.
+
+
+internal api life cycle
+-----------------
+
+
+UI--->controller ---->service----->dao----->entities----->some database
+                                                               |
+                                                               >
+
+UI<-----controller< ----service<-----dao<-----entities<-----some database
+
+
+
+watsapp:
+
+www.watsap.com/chats
+www.watsap.com/groups
+www.watsap.com/staus
+
+
+[
+    {
+        "name": "Anthony",
+        "department": "Java Full Stack",
+        "salary": 10000
+    },
+    {
+        "name": "Rahul",
+        "department": "Dotnet",
+        "salary": 10000
+    },
+    {
+        "name": "Chandu",
+        "department": "Java Full Stack",
+        "salary": 10000
+    },
+    {
+        "name": "Raj",
+        "department": "Dotnet",
+        "salary": 10000
+    }
+]
+
+
+Database :
+
+name of the db
+username
+pwd
+port
+
+
+
+
+
+
+

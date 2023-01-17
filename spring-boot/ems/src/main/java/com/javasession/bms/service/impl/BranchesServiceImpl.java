@@ -46,8 +46,6 @@ public class BranchesServiceImpl implements BranchesService {
 
 		Optional<Branches> object = branchesDAO.findById(branch.getId());
 
-		
-
 		if (object.isPresent()) {
 
 			Branches branchObject = object.get();
@@ -62,6 +60,46 @@ public class BranchesServiceImpl implements BranchesService {
 			} else {
 				message = "Branch details are not updated due to some error,Please try again.";
 			}
+
+		} else {
+			message = "Could not find any details with the search criteria,Please try again with correct details.";
+		}
+
+		return message;
+	}
+
+	@Override
+	public String deleteBranch(Branches branch) {
+
+		String message = null;
+		Optional<Branches> object = branchesDAO.findById(branch.getId());
+
+		if (object.isPresent()) {
+
+			// branchesDAO.deleteById(branch.getId());
+			branchesDAO.delete(object.get());
+
+			message = "Branch details are deleted successfully.";
+
+		} else {
+			message = "Could not find any details with the search criteria,Please try again with correct details.";
+		}
+
+		return message;
+	}
+
+	@Override
+	public String deleteBranchById(Long id) {
+
+		String message = null;
+		Optional<Branches> object = branchesDAO.findById(id);
+
+		if (object.isPresent()) {
+
+			// branchesDAO.deleteById(branch.getId());
+			branchesDAO.delete(object.get());
+
+			message = "Branch details are deleted successfully.";
 
 		} else {
 			message = "Could not find any details with the search criteria,Please try again with correct details.";

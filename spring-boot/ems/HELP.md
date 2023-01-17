@@ -84,6 +84,13 @@ username
 pwd
 port
 
+CRUD
+
+retrieval
+nsertion
+updating
+delete
+
 
 
 

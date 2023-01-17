@@ -11,5 +11,11 @@ public interface BranchesService {
 	public String createBranch(Branches branch);
 
 	public String updateBranch(Branches branch);
+	
+	public String deleteBranch(Branches branch);
+	
+	public String deleteBranchById(Long id);
+	
+	
 
 }
